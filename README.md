@@ -30,7 +30,7 @@ To avoid handling potential different harmonics in the same tone across the octa
 | 8			| Violin			| 366		|
 
 ##Results
-<img src="plots/confusion-matrix_base-experiment" width="450px">
+<img src="plots/confusion-matrix_base-experiment.png" width="450px">
 
 | Experiment			| Accuracy 		|
 | :------------:		| :-----------: 	|
