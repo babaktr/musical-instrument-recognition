@@ -10,7 +10,7 @@ In this study, Artificial Neural Networks (ANN) were used to compare different c
 * The following 900 Hz of the frequency spectrum
 
 ## Dataset
-![pca](/plots/pca.png) 
+![pca](/plots/pca.png =250x) 
 The dataset used in this project was the [London Philharmonic Orchestra dataset](http://www.philharmonia.co.uk/explore/make_music), consisting of recorded samples from 20 different musical instruments. For each instrument, the samples range over its entire set of tones played in every octave with different levels of strength (piano, forte) and length. In addition to that, the dataset also includes samples where different playing techniques are used with the instrument, such as _vibrato_, _tremolo_, _pizzicato_ and _ponticello_.
 
 In order to limit the scope of this project, the following eight instruments were selected to train the model: Banjo, Cello, Clarinet, English horn, Guitar, Oboe, Trumpet and Violin. This set of instruments was chosen because of the high quality of the samples and them ranging over the three instrument families Brass, String and Woodwind. 
@@ -18,7 +18,7 @@ In order to limit the scope of this project, the following eight instruments wer
 To avoid handling potential different harmonics in the same tone across the octaves, only the samples of recordings done in the fourth octave were used.
 
 | Index | Instruments | Samples |
-| ——— | ————— |
+| :———: | :—————: | :—————: |
 | 1   | Banjo | 23 |
 | 2   | Cello | 166 |
 
