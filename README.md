@@ -10,7 +10,7 @@ In this study, Artificial Neural Networks (ANN) were used to compare different c
 * The following 900 Hz of the frequency spectrum
 
 ## Dataset
-<img src="/plots/pca.png" width="450px">
+<img src="/plots/pca.png" width="480px">
 
 The dataset used in this project was the [London Philharmonic Orchestra Dataset](http://www.philharmonia.co.uk/explore/make_music), consisting of recorded samples from 20 different musical instruments. For each instrument, the samples range over its entire set of tones played in every octave with different levels of strength (piano, forte) and length. In addition to that, the dataset also includes samples where different playing techniques are used with the instrument, such as _vibrato_, _tremolo_, _pizzicato_ and _ponticello_.
 
@@ -30,7 +30,7 @@ To avoid handling potential different harmonics in the same tone across the octa
 | 8			| Violin			| 366		|
 
 ##Results
-<img src="plots/confusion-matrix_base-experiment.png" width="450px">
+<img src="plots/confusion-matrix_base-experiment.png" width="480px">
 
 | Experiment			| Accuracy 		|
 | :------------:		| :-----------: 	|
