@@ -1,7 +1,6 @@
 % Load dataset
 n_chunks = 50;
-
-dataset = 'dataset-2/';
+dataset = 'dataset/';
 
 [input_data, mapped_label_data] = process_training_data(dataset, n_chunks, '');
 %[input_data, mapped_label_data] = process_training_data(dataset, n_chunks, 'only_attack');
@@ -26,12 +25,6 @@ for n = 1:n_runs
     net.trainParam.min_grad = 0;
     net.trainParam.max_fail = 150;
     [trained_net, stats] = train(net, input_data, mapped_label_data);
-
-    % while (stats.best_perf > 0.0002)
-    %     net = init(net);
-    %     [trained_net, stats] = train(net, input_data, mapped_label_data);
-    %     disp(stats.best_perf)
-    % end
 
     plotconfusion(mapped_label_data, sim(trained_net, input_data))
     [c, cm] = confusion(mapped_label_data, sim(trained_net, input_data));
