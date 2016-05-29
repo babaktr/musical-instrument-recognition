@@ -10,7 +10,7 @@ In this study, Artificial Neural Networks (ANN) were used to compare different c
 * The following 900 Hz of the frequency spectrum
 
 ## Dataset
-![seq-1](/plots/sequence/time-guitar_E4_very-long_piano_normal.png) 
+![seq-1](/plot_sequence/time-guitar_E4_very-long_piano_normal.png) 
 
 
 ## Pre-processing
