@@ -1,6 +1,12 @@
 # Musical Instrument Recognition System using Artificial Neural Networks
 
 
+## Authors
+[Babak Toghiani-Rizi](https://github.com/babaktr)
+[Marcus Windmark](https://github.com/windmark)
+
+
+
 ## Introduction
 In this study, Artificial Neural Networks (ANN) were used to compare different characteristics of musical instruments and study their ability to distinguish a range of instruments. This was performed using the frequency spectrum of the audio signal, together with an, comparing the accuracy of the network in the cases of the following experiments:
 * The whole sample
@@ -39,8 +45,3 @@ To avoid handling potential different harmonics in the same tone across the octa
 | Without Attack		| 73.2%			|
 | First 100 Hz		| 64.2%			|
 | Following 900 Hz	| 90.6%			|
-
-
-
-
-_2016, Babak Toghiani-Rizi & Marcus Windmark_
