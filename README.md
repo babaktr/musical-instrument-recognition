@@ -2,8 +2,9 @@
 
 
 ## Authors
-[Babak Toghiani-Rizi](https://github.com/babaktr)
-[Marcus Windmark](https://github.com/windmark)
+
+* [Babak Toghiani-Rizi](https://github.com/babaktr)
+* [Marcus Windmark](https://github.com/windmark)
 
 
 
