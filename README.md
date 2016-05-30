@@ -53,7 +53,7 @@ To get started, simply run ```neural_network.m``` in MATLAB.
 There, you can also select which dataset to train the network with by uncommenting the following:
 
 ```MATLAB
-load 'datasets/1-dataset_avgvalue_chunk50.mat'
+load 'datasets/<dataset>.mat'
 ```
 
 The available processed datasets are:
