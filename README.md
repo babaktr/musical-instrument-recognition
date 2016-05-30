@@ -18,7 +18,7 @@ In this study, Artificial Neural Networks (ANN) were used to compare different c
 * The following 900 Hz of the frequency spectrum
 
 ## Dataset
-<img src="/plots/pca.png" width="480px">
+<img src="plots/pca.png" width="480px">
 
 The dataset used in this project was the [London Philharmonic Orchestra Dataset](http://www.philharmonia.co.uk/explore/make_music), consisting of recorded samples from 20 different musical instruments. For each instrument, the samples range over its entire set of tones played in every octave with different levels of strength (piano, forte) and length. In addition to that, the dataset also includes samples where different playing techniques are used with the instrument, such as _vibrato_, _tremolo_, _pizzicato_ and _ponticello_.
 
@@ -37,8 +37,16 @@ To avoid handling potential different harmonics in the same tone across the octa
 | 7			| Trumpet			| 140		|
 | 8			| Violin			| 366		|
 
-##Results
-<img src="plots/confusion-matrix_base-experiment.png" width="480px">
+## Training
+The model used for training was a Multilayer Perceptron with Early Stopping, using Resilient Back Propagation as the learning heuristic. The network consisted of:
+
+* 50 inputs
+* 30 hidden nodes
+* One output node (with eight different outputs, one for each instrument)
+
+## Results
+
+The following table displays the results of the training, run over an average of 10 sessions.
 
 | Experiment			| Accuracy 		|
 | :------------:		| :-----------: 	|
@@ -47,6 +55,10 @@ To avoid handling potential different harmonics in the same tone across the octa
 | Without Attack		| 73.2%			|
 | First 100 Hz		| 64.2%			|
 | Following 900 Hz	| 90.6%			|
+
+Below is a confusion Matrix from one of the training sessions, displaying an example of the accuracy for each class:
+<img src="plots/confusion-matrix_base-experiment.png" width="480px">
+
 
 ## Getting started
 To get started, simply run ```neural_network.m``` in MATLAB.
