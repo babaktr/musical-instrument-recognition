@@ -47,3 +47,21 @@ To avoid handling potential different harmonics in the same tone across the octa
 | Without Attack		| 73.2%			|
 | First 100 Hz		| 64.2%			|
 | Following 900 Hz	| 90.6%			|
+
+## Getting started
+To get started, simply run ```neural_network.m``` in MATLAB.
+There, you can also select which dataset to train the network with by uncommenting the following:
+
+```MATLAB
+load 'datasets/1-dataset_avgvalue_chunk50.mat'
+```
+
+The available processed datasets are:
+
+| Dataset				| Filename 		|
+| :------------:		| :-------------: 	|
+| Base experiment	| ```1-dataset_avgvalue_chunk50.mat``` |
+| Only Attack			| ```2-dataset_avgvalue_chunk50_only_attack.mat``` |
+| Without Attack		| ```3-dataset_avgvalue_chunk50_without_attack.mat``` |
+| First 100 Hz		| ```4-dataset_avgvalue_chunk50_100hz.mat``` |
+| Following 900 Hz	| ```5-dataset_avgvalue_chunk50_900hz.mat``` |
