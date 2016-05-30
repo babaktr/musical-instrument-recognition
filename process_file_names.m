@@ -1,6 +1,27 @@
+% [ file_data ] = process_file_names( directory )
+% 
+% Authors:  Babak Toghiani-Rizi & Marcus Windmark
+% Date:    2016
+% 
+% Function Description: 
+%
+%   Extracts all file names in a directory, assuming the format
+%   "instrument_tone".
+% 
+% Input Parameters: 
+%
+%         directory: (string) Path to a directory.
+% 
+% Returned Value: 
+%
+%         file_data: (cell) The instrument information extracted
+%                     from the given directory.
+%
+%
+
+
 function [ file_data ] = process_file_names( directory )
     file_names = dir(directory); 
-%     file_names = {file_names(~[file_names.isdir && strcmpi(file_names.name(1), '.')]).name};
 
     for k = length(file_names):-1:1
         if file_names(k).isdir
