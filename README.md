@@ -9,7 +9,8 @@
 
 
 ## Introduction
-In this study, Artificial Neural Networks (ANN) were used to compare different characteristics of musical instruments and study their ability to distinguish a range of instruments. This was performed using the frequency spectrum of the audio signal, together with an, comparing the accuracy of the network in the cases of the following experiments:
+
+In this project, Artificial Neural Networks were trained to classify a range of musical instruments and a number of comparative experiments were conducted on how much different characteristics of the musical instruments would impact the resulting accuracy. These experiments were, using:
 
 * The whole sample
 * The attack of the sound
