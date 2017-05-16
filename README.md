@@ -6,6 +6,7 @@
 * [Babak Toghiani-Rizi](https://github.com/babaktr)
 * [Marcus Windmark](https://github.com/windmark)
 
+Paper available [here](https://arxiv.org/abs/1705.04971).
 
 
 ## Introduction
